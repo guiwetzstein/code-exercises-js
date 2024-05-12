@@ -42,7 +42,9 @@ class HondaEngine implements IEngine {
     }
 }
 
-const car = new Car('Volkswagen', 'Golf', new VolksEngine());
+const volksEngine = new VolksEngine();
+const car = new Car('Volkswagen', 'Golf', volksEngine); // this is also using dependency injection
 car.getInfo();
-const car2 = new Car('Honda', 'Civic', new HondaEngine());
+const hondaEngine = new HondaEngine();
+const car2 = new Car('Honda', 'Civic', hondaEngine); // this is also using dependency injection
 car2.getInfo();
