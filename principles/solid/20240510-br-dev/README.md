@@ -18,7 +18,7 @@ Each software entity (classes, modules, functions, etc.) must have only one resp
 
 ## Open-Closed Principle (OCP)
 
-Classes are open for extension, but closed for internal modifications.
+Classes are open for extension, but closed for modification.
 
 ## Liskov's Substitution Principle (LSP)
 
@@ -26,7 +26,7 @@ Objects of a superclass shall be replaceable with objects of its subclasses with
 
 ## Interface Segregation Principle (ISP)
 
-Classes should not be forced to implement methods it doesn't need. In other words, a class should have small, focused interfaces rather than large, monolithic ones.
+Classes should not be forced to implement methods they don't need. In other words, a class should have small, focused interfaces rather than large, monolithic ones.
 
 ## Dependency Inversion Principle (DIP)
 
